@@ -1,0 +1,15 @@
+main {
+  display: flex;
+}
+
+/* REQUISITO 5 E 6 */
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+/* REQUISITO 7 */
+#trybewarts-forms-logo {
+  height: 500px;
+}
