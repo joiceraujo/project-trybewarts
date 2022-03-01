@@ -28,6 +28,17 @@ main {
   display: flex;
 }
 
+#label-rate {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.textarea {
+  display: flex;
+  position: relative;
+}
+
 /* REQUISITO 5 E 6 */
 #evaluation-form {
   display: flex;
@@ -37,6 +48,16 @@ main {
 
 /* REQUISITO 7 */
 #trybewarts-forms-logo {
-  height: 500px;
+  height: 500px; 
+  display: flex;
+  align-items: flex-start;
+  position: relative;
 }
 
+footer {
+  text-align: center;
+  background-color: gray;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
