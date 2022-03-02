@@ -75,9 +75,10 @@ main {
 }
 
 /* REQUISITO 15 */
-.textarea {
+.textarea-div {
   display: flex;
   padding: 10px;
+  flex-direction: column;
 }
 
 /* REQUISITO 18 */

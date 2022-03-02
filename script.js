@@ -4,6 +4,8 @@ const email = document.querySelector('#email');
 const senha = document.querySelector('#password');
 const sbtButton = document.getElementById('submit-btn');
 const agreeCheck = document.getElementById('agreement');
+const contador = document.getElementById('counter');
+const textArea = document.getElementById('textarea');
 
 function emailValidation(event) {
   event.preventDefault();
@@ -22,6 +24,13 @@ function validationButton() {
     sbtButton.disabled = true;
   }
 }
+
+function cont() {
+  const resultado = 500 - textArea.value.length;
+  contador.innerText = resultado;
+}
+
+textArea.addEventListener('keyup', cont);
 
 buttonLogin.addEventListener('click', emailValidation);
 
