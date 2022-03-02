@@ -80,12 +80,6 @@ main {
   padding: 10px;
 }
 
-/* REQUISITO 16 */
-#agreement {
-  display: flex;
-  padding: 10px;
-}
-
 /* REQUISITO 18 */
 #submit-btn {
   background-color: blue;
