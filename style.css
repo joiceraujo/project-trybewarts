@@ -11,7 +11,7 @@ body {
 main {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start
+  align-items: flex-start;
 }
 
 /* REQUISITO 1 */
@@ -44,7 +44,7 @@ main {
   padding: 8px;
   height: 40px;
   margin-top: 8px;
-} 
+}
 
 #login {
   height: 40px;
@@ -64,13 +64,13 @@ main {
 
 /* REQUISITO 7 */
 #trybewarts-forms-logo {
-  height: 500px; 
+  height: 500px;
   display: flex;
   margin-top: 50px;
 }
 
 /* REQUISITO 14 */
-#label-rate, #rate{
+#label-rate , #rate {
   display: flex;
 }
 
@@ -79,11 +79,13 @@ main {
   display: flex;
   padding: 10px;
 }
+
 /* REQUISITO 16 */
 #agreement {
   display: flex;
   padding: 10px;
 }
+
 /* REQUISITO 18 */
 #submit-btn {
   background-color: blue;
@@ -107,9 +109,9 @@ footer {
   color: white;
 }
 
-@media screen and (max-width : 600px) {
- #trybewarts-forms-logo {
+@media screen and ( max-width : 600px ) {
+
+  #trybewarts-forms-logo {
     display: none;
-  
   }
 }
